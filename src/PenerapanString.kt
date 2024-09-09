@@ -20,5 +20,8 @@ fun main(args: Array<String>) {
         } else if (consonants.contains(c))
             consonantCount++
     }
+    println("Vowels: $vowelCount")
+    println("Consonants: $consonantCount")
+    println("Other characters: ${s.length - (vowelCount + consonantCount)}")
 }
 
